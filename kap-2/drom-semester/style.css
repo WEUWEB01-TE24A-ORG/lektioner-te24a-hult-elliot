@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Grape+Nuts&display=swap');
+body {background-image:url(./bilder/amra\ cp\ dance.gif);
+background-size:250px;}
+img {width:250px;height: 50px;}
+h1 {color:aquamarine; font-family: "Grape Nuts", cursive;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 3px #769510;
+    margin:100px 350px
+    }
+h2 {color:aquamarine; font-family: "Grape Nuts", cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 3px #805f0c;
+    margin-left: 350px;
+    }
+a {color:aquamarine;font-family: "Comic Relief", system-ui;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: chocolate;
+    padding:10px;
+    border-radius: 10px;
+    }
+p {margin-left:750px;margin-top: 200px;}
