@@ -1,0 +1,23 @@
+
+body {background-image:url(./bilder/Bg.jpg); background-size: cover;}
+h1 {text-align: center;
+    margin: 10% auto 3px;
+    font-size: 300%;
+    padding:1px 5px;
+    
+    width:fit-content;
+    border-radius: 10px;
+    text-shadow: 5px 2px gray;
+    color: white;
+    
+}
+img {width:250px;border-radius: 10px;}
+h2 {
+    width:fit-content;
+    padding:7px 5px 3px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px auto;
+    text-align: center;
+}
+p {margin: 0px 0px;font-size: 150%;}
