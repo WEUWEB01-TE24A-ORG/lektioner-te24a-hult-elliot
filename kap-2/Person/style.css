@@ -21,3 +21,23 @@ h2 {
     text-align: center;
 }
 p {margin: 0px 0px;font-size: 150%;}
+table {
+    margin: 5px auto;
+    width:fit-content; 
+    background-color: lightgray;
+    border-radius: 0px 0px 10px 10px;
+    column-gap: 0px;
+    row-gap: 0px;
+    column-rule-style: dotted;
+    column-rule-color: black;
+}
+caption {background-color: gray; border-radius: 10px 10px 0px 0px}
+tr:nth-child(even) {
+    background-color: blue;
+}
+tr {
+    
+}
+th {
+    width: 200px;
+}
