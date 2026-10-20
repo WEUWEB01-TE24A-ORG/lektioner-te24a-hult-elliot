@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Grape+Nuts&family=Linefont:wght@4..1000&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* sidans utseende */
+body {
+    background-color: #000;
+    background-image: url(./bilder/scones.webp);
+    background-size: cover;
+}
+div {
+    
+    font-family: "Linefont", system-ui; 
+    /* font-family: "Grape Nuts", cursive; */
+    font-weight: 400;
+    font-style: normal;
+    background-color:orange;
+    border-radius: 10px;
+    border: solid 10px darkorange;
+    width: 1000px;
+    padding: 20px;
+    margin: 50px auto;
+}
+/* Innehållets utseende */
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}  
+img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid 10px darkorange;
+    padding: 0px auto;
+}
+p {
+    max-width: 500px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+ul {
+    margin-left: 40px;
+
+}
+li {
+    font-size: 20px;
+}
+a {}
