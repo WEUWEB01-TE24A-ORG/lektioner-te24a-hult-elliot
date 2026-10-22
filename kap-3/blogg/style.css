@@ -1,0 +1,59 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: darkslategray; /*large background*/
+    --bg2: cadetblue; /*small background*/
+    --b: steelblue; /*border*/
+}
+body {
+    background-color:teal;
+}
+div.sida {
+    background-color: var(--bg);
+    width: 600px; 
+    border-bottom: solid var(--bg) 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: 10px; */
+}
+div.inlagg {
+    box-shadow: 5px 5px black;
+    background-color:var(--bg2);
+    width:500px;
+    margin: 0 auto 50px auto;
+    padding: 10px;
+    /* border-radius: 10px; */
+    font-size: 20px;
+}
+img {
+    width:100%;
+    border: solid var(--b) 5px;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 0px;
+    color:lightsteelblue;
+}
+h2 {
+    color:lightcyan;
+    font-size: 30px;
+}
+
+p {
+    color:white;
+}
+p.datum {
+    color: lightcyan;
+    font-size: 15px;
+}
