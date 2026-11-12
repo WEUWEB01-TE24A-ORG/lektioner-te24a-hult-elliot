@@ -1,0 +1,42 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+body {
+    background-color: black;
+}
+.box {
+    background-color: #fff;
+    width:30%;
+    margin: 10% auto;
+    padding: 10px;
+
+}
+.question {
+    font-size: 300%;
+    text-align: center;
+}
+.ans {
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+}
+.answer {
+    background-color: red;
+    font-size: 200%;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+}
