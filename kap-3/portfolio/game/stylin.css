@@ -34,8 +34,12 @@ body {
     margin: 30px auto;
 }
 .answer {
-    background-color: red;
+    padding:2px 10px;
+    background-color: green;
+    border: solid 5px orange;
+    border-radius: 5px;
     font-size: 200%;
+    color: black;
     margin: 0px auto;
     text-align: center;
     text-decoration: none;
